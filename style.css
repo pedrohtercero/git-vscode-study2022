@@ -1,5 +1,44 @@
-#align-title-background div{
-    background-color: darkblue;
-    text-align: center;
-    font-size: 35px;
+    body {
+        background-image: url(img/background_website.jpg);
     }
+
+    header, section, footer {
+        width: 100%;
+    }
+    
+    div.box {
+        width: 500px;
+        padding: 10px;
+        border: 10px;
+        margin: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: large;   
+    }
+
+    h1.sohpetrips {
+        color: white;
+        text-align: center;
+        font-size: 38px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    span.sohpetrips {
+        background-color: black;
+        background-size: contain;
+    }
+
+    h2.subtitle {
+        color: blueviolet;
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    p.resume {
+        text-align: center;
+        color: blueviolet;
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
